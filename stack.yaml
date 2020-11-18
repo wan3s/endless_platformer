@@ -1,0 +1,11 @@
+# Resolver to choose a 'specific' stackage snapshot or a compiler version.
+# A snapshot resolver dictates the compiler version and the set of packages
+# to be used for project dependencies.
+resolver: lts-13.6
+
+# User packages to be built.
+packages:
+- .
+
+extra-deps:
+- gloss-juicy-0.2.3@sha256:0c3bca95237cbf91f8b3b1936a0661f1e0457acd80502276d54d6c5210f88b25
